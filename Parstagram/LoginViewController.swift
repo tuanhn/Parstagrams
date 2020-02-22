@@ -23,18 +23,30 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onSignIn(_ sender: Any) {
+        let username = usernameField.text!
+        let password = passwordField.text!
+        
+        PFUser.logInWithUsername(inBackground: username, password: password)
+        { (user, error) in
+            if user != nil {
+                print("success")
+                self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            } else {
+                print("failed")
+                print("Error: \(error?.localizedDescription ?? "FAILED LOGIN")")
+            }
+        }
+        
+        
     }
     
     
     @IBAction func onSignUp(_ sender: Any) {
         let user = PFUser()
         
-        user.username = usernameField.text
-        user.password = passwordField.text
+        user.username = usernameField.text!
+        user.password = passwordField.text!
         
-        print (user.username as Any)
-        print (user.password as Any)
-
         user.signUpInBackground { (success, error) in
             if success {
                 print ("success")
