@@ -16,6 +16,7 @@
 		3C104DDA23FF7A0A0033A684 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C104DD923FF7A0A0033A684 /* FeedViewController.swift */; };
 		3C1C1E662401DD0E0055BBE8 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C1C1E652401DD0E0055BBE8 /* CameraViewController.swift */; };
 		3C9BBB3024032D27000282E2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BBB2F24032D27000282E2 /* PostCell.swift */; };
+		3CF27C022408C32C00C2DB37 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF27C012408C32C00C2DB37 /* CommentCell.swift */; };
 		E8CFD6C822EEAAE60F552D76 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 694D3B02E4422A953C227F97 /* Pods_Parstagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		3C104DD923FF7A0A0033A684 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3C1C1E652401DD0E0055BBE8 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		3C9BBB2F24032D27000282E2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3CF27C012408C32C00C2DB37 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		694D3B02E4422A953C227F97 /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				3C104DC123FF69B00033A684 /* AppDelegate.swift */,
 				3C104DC323FF69B00033A684 /* SceneDelegate.swift */,
 				3C104DC723FF69B00033A684 /* Main.storyboard */,
+				3CF27C012408C32C00C2DB37 /* CommentCell.swift */,
 				3C104DCA23FF69B10033A684 /* Assets.xcassets */,
 				3C104DCC23FF69B10033A684 /* LaunchScreen.storyboard */,
 				3C104DCF23FF69B10033A684 /* Info.plist */,
@@ -221,6 +224,7 @@
 				3C104DDA23FF7A0A0033A684 /* FeedViewController.swift in Sources */,
 				3C104DC423FF69B00033A684 /* SceneDelegate.swift in Sources */,
 				3C9BBB3024032D27000282E2 /* PostCell.swift in Sources */,
+				3CF27C022408C32C00C2DB37 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
